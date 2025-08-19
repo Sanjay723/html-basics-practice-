@@ -1,0 +1,82 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  color: violet;
+  text-align: center;
+  line-height: 1.4px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  color: cyan;
+  text-align: center;
+  line-height: 200px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.violet {
+  background-color: violet;
+}
+.indigo {
+  background-color: indigo;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+
+.violet:hover {
+  background-color: darkcyan;
+}
+.indigo:hover {
+  background-color: burlywood;
+}
+.blue:hover {
+  background-color: aqua;
+}
+.green:hover {
+  background-color: slategrey;
+}
+
+.box {
+  transition: background-color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box:hover {
+  transform: scale(1.2);
+  background-color: slategrey;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.box {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+  border-radius: 15px;
+}
+
+.box {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
